@@ -1,5 +1,10 @@
 // Declare your function here
+function createLongGreeting(a, b){
+var saludo = "Hello, my name is  ";
+var otraParte = " I am ";
+return saludo + a + otraParte + b;
+}
 
-const greeting = createLongGreeting("Daniel", 30);
+createLongGreeting("Daniel", 30);
 
-console.log(greeting);
+console.log(createLongGreeting("Daniel", 30));
