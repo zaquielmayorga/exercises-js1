@@ -9,6 +9,24 @@
 
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
+arr.forEach(function(a){
+  if (a /3 % 1 == 0){
+  console.log("Fizz")}
+ 
+  else if (a /5 % 1 == 0){
+    console.log("Buzz")
+  }
+  else if(
+    a/5 && a/3 % 1 == 0){
+console.log ("FizzBuzz")
+    }
+    else{
+      console.log("hola");
+    }
+  
+
+  }
+  )
 /* EXPECTED OUTPUT */
 
 /*

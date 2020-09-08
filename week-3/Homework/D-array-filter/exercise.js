@@ -8,9 +8,18 @@
 
 var pairsByIndexRaw = [[0, 3], [1, 2], [2, 1], null, [1], false, "whoops"];
 
-var pairsByIndex; // Complete this statement
-
+var pairsByIndex = pairsByIndexRaw.filter(function verdaderoyfalso (hello){
+   if( hello != null && hello.length == 2)
+    {
+   return true;
+    }
+  // < 2 && hello == null && hello == false && typeof hello != String) {
+  // // return false
+  }
+)
 var students = ["Islam", "Lesley", "Harun", "Rukmini"];
+
+
 var mentors = ["Daniel", "Irina", "Mozafar", "Luke"];
 
 var pairs = pairsByIndex.map(function(indexes) {
@@ -18,5 +27,7 @@ var pairs = pairsByIndex.map(function(indexes) {
   var mentor = mentors[indexes[1]];
   return [student, mentor];
 });
+
+
 
 console.log(pairs);
