@@ -8,6 +8,9 @@
 
 var numbers = [1, 2, 3]; // Don't change this array literal declaration
 
+number[0] = 1;
+number.concat(4);
+
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */

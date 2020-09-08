@@ -5,7 +5,7 @@
 
 */
 
-function isEmpty(arr) {
+function isEmpty(arr) if {
   return; // complete this statement
 }
 

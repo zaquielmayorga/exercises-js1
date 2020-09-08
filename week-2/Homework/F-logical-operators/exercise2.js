@@ -5,8 +5,39 @@
   Update the code so that you get the expected result.
 */
 
-function isNegative() {}
+function isNegative(a) {
+  if (a < 0){
+    return true;
+  }
+  else {return false}
+}
 
+function isBetween5and10(b){
+  if (5 < b && b < 10){
+    return true;
+  }
+  else {
+    return false;
+  }
+}
+function isShortName(c){
+  if (c.length <= 6){
+  return true 
+}
+else {
+  return false
+}
+}
+
+function startsWithD(d){
+  if (d.startsWith("D")){
+    return true
+
+  }
+  else{
+    return false
+  }
+}
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
